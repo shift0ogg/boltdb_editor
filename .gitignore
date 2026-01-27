@@ -1,0 +1,4 @@
+backend/go.sum
+node_modules
+/backend/go.sum
+/frontend/package-lock.json
