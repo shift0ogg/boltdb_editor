@@ -1,6 +1,7 @@
 # golang实现BoltDB 数据库管理工具
-![效果图](docs/jm1.png)
+![效果图](https://github.com/shift0ogg/boltdb_editor/blob/main/docs/jm1.PNG?raw=true)
 ## BoltDB 数据库管理工具的完整架构：
+```
 boltdb_editor/
 ├── backend/                    # Golang 后端
 │   ├── go.mod
@@ -27,7 +28,8 @@ boltdb_editor/
             ├── BucketViewer.vue        # 桶查看器
             ├── CreateBucketModal.vue   # 创建桶模态框
             └── KeyValueModal.vue       # 键值对模态框
-
+        
+```
 ## 功能特性
 数据库管理：打开任意 BoltDB 数据库文件
 桶管理：创建、删除和查看桶（相当于表）
